@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setup(
     name='snoop-tensor',
-    version="0.1",
+    version="0.2",
     author='Jacob Zhong',
     author_email='cmpute@gmail.com',
     description="Tensor extension for snoop",

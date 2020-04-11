@@ -2,7 +2,7 @@ import numpy
 
 from snoop_tensor.base import Formatter
 
-class NumpyFormatter(Formatter):
+class TensorFormatter(Formatter):
     def __init__(self, property_name=False, properties=('shape', 'dtype', 'has_nan', 'has_inf')):
         super().__init__("ndarray", property_name, properties)
 

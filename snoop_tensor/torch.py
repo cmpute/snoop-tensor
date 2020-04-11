@@ -53,3 +53,10 @@ class TensorFormatter(Formatter):
         if result:
             return 'has_inf'
         return ''
+
+class LayerFormatter:
+    def __init__(self):
+        pass
+
+    def __call__(self, layer):
+        return type(layer).__name__

@@ -12,3 +12,4 @@ snoop_tensor.register() # need to be called after install()
 ## Features
 
 - Display tensors in a beautiful way
+- Profiling GPU memory usage and time usage
